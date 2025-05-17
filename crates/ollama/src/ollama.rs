@@ -5,7 +5,7 @@ use serde::{Deserialize, Serialize};
 use serde_json::Value;
 use std::{sync::Arc, time::Duration};
 
-pub const OLLAMA_API_URL: &str = "http://localhost:11434";
+pub const OLLAMA_API_URL: &str = "http://debianInference.local.lan:11434";
 
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 #[derive(Clone, Serialize, Deserialize, Debug, Eq, PartialEq)]
